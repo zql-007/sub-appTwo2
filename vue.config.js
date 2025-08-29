@@ -3,7 +3,7 @@ const { name } = require('./package.json')
 module.exports = {
   publicPath: '/', // 打包相对路径
   devServer: {
-    port: 7663, // 运行端口号
+    port: 7664, // 运行端口号
     headers: {
       'Access-Control-Allow-Origin': '*' // 防止加载时跨域
     }
